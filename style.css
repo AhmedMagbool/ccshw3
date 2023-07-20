@@ -3,77 +3,44 @@
     padding: 0%;
 }
 
-
-header{
-width: 225vh;
-background-color: #0d1320;
-height: 8vh;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 0.5%;
-
-
-}
-header img{
-    height: 90%;
-    margin: 0% 3% 0% 0%;
-}
-
-
-
-nav{
-    display: flex;
-    gap: 40px;
-}
-nav a{
-    text-decoration: none;
-    color: white;
-    font-size:30px;
-    padding-right: 10px;
-    transition: 0.5s;
-}
-
-header button{
-    width: 10%;
-    height: 50%;
-    border-radius: 20px;
-    font-size: 20px;
-    background-color: white;
-    color: #2B303A;
-}
-.card{
-    border: 2px solid rgb(0, 0, 0);
+.flex-column{
+    border: 2px solid white;
     background: rgb(255, 255, 255);
-    height: 60vh;
-    width: 70vh;
+    height: 50vh;
     display: flex;
-    gap: 1.5px;
     flex-direction: column;
+    gap: 3px;
     justify-content: space-between;
     align-items: center
+    
 }
-/* .TWITTER{
-    border: 2px solid #0d1320;
-    width: 100px;
-    height: 100px;
+.flex-column .flex-item-column{
+border: 2px solid gold;
+background: gold;
+width: 10vh;
+height: 10vh;
 }
-.INSTAGRAM{
-    border: 2px solid #0d1320;
-    width: 100px;
-    height: 100px;
-}
-.YOUTUBE{
-    border: 2px solid #0d1320;
-    width: 100px;
-    height: 100px;
-} */
 h1{
     text-align: center;
     color:cornflowerblue;
 
 }
-p{
-    text-align: center;   
+header{
+    width: 225vh;
+    background-color: #0d1320;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5%;
 }
-
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+img{
+    height: 90%;
+    margin: 0% 3% 0% 0%;
+}
+button{
+}
