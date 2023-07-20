@@ -43,4 +43,38 @@ header button{
     color: #2B303A;
     transition: 0.4s;
 }
+.card{
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    height: 60vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5px;
+    justify-content: space-between;
+    align-items: center
+}
+/* .TWITTER{
+    border: 2px solid #0d1320;
+    width: 100px;
+    height: 100px;
+}
+.INSTAGRAM{
+    border: 2px solid #0d1320;
+    width: 100px;
+    height: 100px;
+}
+.YOUTUBE{
+    border: 2px solid #0d1320;
+    width: 100px;
+    height: 100px;
+} */
+h1{
+    text-align: center;
+    color:cornflowerblue;
+
+}
+p{
+    text-align: center;   
+}
 
