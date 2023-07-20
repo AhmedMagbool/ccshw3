@@ -41,16 +41,15 @@ header button{
     font-size: 20px;
     background-color: white;
     color: #2B303A;
-    transition: 0.4s;
 }
 .card{
     border: 2px solid rgb(0, 0, 0);
     background: rgb(255, 255, 255);
     height: 60vh;
-    width: 50vh;
+    width: 70vh;
     display: flex;
-    flex-direction: column;
     gap: 1.5px;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center
 }
